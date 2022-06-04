@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792730803577",
+    "project_id": "hellobello-3e34c",
+    "storage_bucket": "hellobello-3e34c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792730803577:android:948718292fee50172c63a8",
+        "android_client_info": {
+          "package_name": "com.example.hellobello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792730803577-5m25u8qp1nii9ai7la9hisfmq8n5dtdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ypiDPChnzT3rxAgITl4Gje7chQ6_pjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792730803577-5m25u8qp1nii9ai7la9hisfmq8n5dtdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

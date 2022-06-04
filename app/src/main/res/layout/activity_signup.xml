@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#813636"
+    tools:context=".SignupActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/bungee_shade"
+                android:gravity="center"
+                android:text="Sign up! "
+                android:textColor="#7E7C7D"
+                android:textColorHint="#E91E63"
+                android:textSize="36sp"
+                android:textStyle="normal|bold|italic" />
+
+            <EditText
+                android:id="@+id/nameBox"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:drawableLeft="@android:drawable/ic_menu_edit"
+                android:ems="10"
+                android:hint=" Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:drawableStart="@android:drawable/sym_action_email"
+                android:ems="10"
+                android:hint="  Email Address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/codeBox"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:drawableStart="@android:drawable/ic_lock_idle_lock"
+                android:ems="10"
+                android:hint="  Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/shareBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#7C4545"
+                android:text="Create an account"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/joinBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#BF7979"
+                android:text="have an account already?"
+                app:cornerRadius="20dp"
+                app:rippleColor="#9F8686" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
